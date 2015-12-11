@@ -5,6 +5,7 @@ build:
     - npm test
 publish:
   gcr:
+    storage_driver: vfs
     repo: foo/bar
     token: >
       {
