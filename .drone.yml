@@ -3,9 +3,7 @@ build:
   commands:
     - npm install
     - npm test
-    - apt-get update
-    - apt-get install docker-engine
-    - service docker start
+storage_driver: vfs
 publish:
   gcr:
     repo: foo/bar
