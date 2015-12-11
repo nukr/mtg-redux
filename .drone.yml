@@ -6,7 +6,7 @@ build:
 publish:
   gcr:
     storage_driver: vfs
-    repo: foo/bar
+    repo: mtg-front
     token: >
       {
         "type": "service_account",
