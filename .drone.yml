@@ -3,6 +3,8 @@ build:
   commands:
     - npm install
     - npm test
+    - sudo apt-get install docker-engine
+    - sudo service docker start
 publish:
   gcr:
     repo: foo/bar
