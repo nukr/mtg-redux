@@ -4,8 +4,8 @@ build:
     - npm install
     - npm test
 publish:
-  storage_driver: aufs
   gcr:
+    storage_driver: aufs
     repo: foo/bar
     token: >
       {
