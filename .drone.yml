@@ -6,6 +6,9 @@ build:
 publish:
   gcr:
     registry: asia.gcr.io
+    tag:
+      - latest
+      - "0.1.0"
     storage_driver: vfs
     repo: api-project-543499001283/mtg-front
     token: >
