@@ -7,7 +7,7 @@ publish:
   gcr:
     registry: asia.gcr.io
     storage_driver: vfs
-    repo: nukrs_w/mtg-front
+    repo: api-project-543499001283/mtg-front
     token: >
       {
         "type": "service_account",
