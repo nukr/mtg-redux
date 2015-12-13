@@ -16,13 +16,5 @@ deploy:
   rsync:
     user: nukrs_w
     host: 104.155.196.26
-    port: 22
     source: ~/zz
     target: ~/zz
-    delete: false
-    recursive: true
-    exclude:
-      - "exclude/this/pattern/*"
-      - "or/this/one"
-    commands:
-      - touch gg
