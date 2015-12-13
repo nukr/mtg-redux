@@ -18,5 +18,5 @@ deploy:
     host: 104.155.196.26
     delete: false
     recursive: true
-    source: home/
+    source: /
     target: /home/nukrs_w/gg
