@@ -16,5 +16,5 @@ deploy:
   rsync:
     user: nukrs_w
     host: 104.155.196.26
-    source: ~/zz
-    target: ~/zz
+    source: /tmp/zz
+    target: /home/nukrs_w/zz
