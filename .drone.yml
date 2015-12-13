@@ -5,6 +5,7 @@ build:
     - npm test
 publish:
   gcr:
+    storage_driver: overlay
     registry: asia.gcr.io
     tag:
       - latest
