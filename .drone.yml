@@ -3,21 +3,6 @@ build:
   commands:
     - npm install
     - npm test
-# publish:
-#   gcr:
-#     registry: asia.gcr.io
-#     tag:
-#       - latest
-#       - "0.1.1"
-#     repo: api-project-543499001283/mtg-redux
-#     token: >
-#       {
-#         "type": "service_account",
-#         "private_key_id": "aa0f0bf76612a972cc3aee1765b3dd5f2600cd58",
-#         "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCrDZwxNF3c/gwC\nkiFE6J/Pq1XDfy0fgtEcJBF7Z42EiTM1DIH7b/DAqN4LkoU4St5hzwirG6JIZ603\nx7bSxeRvR5sOvGtg0tY1jVeXA6f0xz762oOf2Qjtkrz1PzpHiFlQjd8KtmzFqgQp\ntK8HogdDOViS32HHqCaRVkxiUfPzC7rMlo9pNAtkYMogIWix6E8mj+lk39IHlwu6\nMjTU4JCkmhG2HoBDnzserKOyDP0kHmL+cf8KMTNvsBDTtNH5a87obTbmrVf11MeH\nKflCFw6oJzZJh4+jh/h2pIO5U7sqIVIeqagX1Zuf1ck8xw1HsZc0GB+p7hJn84Uo\nD2DxaX37AgMBAAECggEBAIvFo0vRrqFWNhojrmvQakYXiw0kborBKn4EOwTLqSgT\ntHQ0tEHxRpknY8mxAIrvIqhptHudKQ5hKXnbB9lTO0ZzDJEOBfAoWEGKLXiI1EWA\nSkZRKB0GC/WVYjJEaCrrj4/zXb4zMs6SDrTFoABsteKIiYf6YLv0+w7npaLxtJV0\nN960nuMB3PBiZNMPEbTvJXkJu3QvuN+I4/LzPcO2oY/M42sIKo/jvfscXN1mh5aZ\nvG7/LSagIIDZQRWd87rFfItMe9NARr9EgQljf3IU2tGaU/cOAYwxaMO3XXJEJcyK\npQEdCfCveo1KQy081+AwCzKYN23IMQ7aN5khyNw39gECgYEA64LaVjTH8qixIfll\ngELbJdlZDLadsC1yN55HatjX8GOhb0vOsgW0VeJLBNbQG5S5N1+oI67P8DCWRJ5s\nNUrR6fgG8O36Y5gwg9EfLHy0/8hdfqZ6u9sIEZR3lvxgBpcgX5ctFrYdzDVt7o2B\nDwByhskzufPfA01gm6i/6LJsglECgYEAue8xLsQi+dJn4z/NjbOn1/UbE3R1KahE\nK9vdGDJk/xDx9visjpEQ/vDW/TGmtuT6JsKHVQTjBqoilZosfzFs4qQF3cxbBhzh\nYCyTDnI4xS/YOR8tmUyAQrgbevTusfhsLIa2QyWhk1ASQ4L82QsqqhDthxtntliM\n6lKY9rAH/IsCgYB1nu2inku6IowM1rzduQYwOgPieJX6tkfUBUXP1CrM0UWAC1FY\n0caGGjWzXgGjtLxoLmsQHy+U2v9BmAmc+BgsjQYScBhcg1a/jsLN+h5/nLctGMI1\nbifyd77edn8S64lslFkdfakWIx0bRirNrkCElpox5d1cjdmRBE+MTQgqcQKBgQCT\n1zrWIqJk3gY4zWyV9XnJ31yOFZVrcB30ebfNG5TusvySEZyzJ2nKLJnlbOtQlbTJ\nyPduhJo3nGQvbA1hfV1EwILhnzHpJGGX5Rlw7SVytN5KXR4WvJtncZh4JfT9kbgB\nl4Oo1G0rAwnioG6H7bcYzqjvOr02YiZ50v9JdyKCjQKBgQCBgrOmlOMspwvKiPd+\nSSGsZfkjs/0r2bIXWCo5HauClHE+sPIBkSjqVlwQW43vpd4PAg7UhkYPr33aVWrO\nPjc3/68WXD0aOt/GmvNbPep1vmtOXJX9EqmINdqRu8RicbZ37m6dqgshCStV26C5\n5ofUCX718hBjiv9ssXzWBHn39w==\n-----END PRIVATE KEY-----\n",
-#         "client_email": "drone-771@api-project-543499001283.iam.gserviceaccount.com",
-#         "client_id": "101063448745883043004"
-#       }
 notify:
   email:
     from: nukrs.w@gmail.com
