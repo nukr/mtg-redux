@@ -9,7 +9,6 @@ publish:
     tag:
       - latest
       - "0.1.1"
-    storage_driver: vfs
     repo: api-project-543499001283/mtg-front
     token: >
       {
