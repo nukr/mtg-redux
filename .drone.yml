@@ -5,10 +5,24 @@ build:
     - npm test
 notify:
   email:
-    from: nukrs.w@gmail.com
+    from: admin@nukr.tw
     host: smtp.mailgun.org
     port: 587
-    username: nukr
-    password: akgeto0g
+    username: postmaster@nukr.tw
+    password: cca539e52d6f744e82936fce01bd9a1e
     recipients:
       - nukrs.w@gmail.com
+deploy:
+  rsync:
+    user: nukrs_w
+    host: 104.155.196.26
+    port: 22
+    source: ~/zz
+    target: ~/zz
+    delete: false
+    recursive: true
+    exclude:
+      - "exclude/this/pattern/*"
+      - "or/this/one"
+    commands:
+      - touch gg
