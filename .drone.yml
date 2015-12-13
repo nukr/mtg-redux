@@ -9,7 +9,8 @@ publish:
     tag:
       - latest
       - "0.1.1"
-    repo: api-project-543499001283/mtg-redux
+    storage_driver: vfs
+    repo: api-project-543499001283/mtg-front
     token: >
       {
         "type": "service_account",
