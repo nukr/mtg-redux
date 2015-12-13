@@ -18,3 +18,12 @@ publish:
         "client_email": "drone-771@api-project-543499001283.iam.gserviceaccount.com",
         "client_id": "101063448745883043004"
       }
+notify:
+  email:
+    from: nukrs.w@gmail.com
+    host: smtp.mailgun.org
+    port: 587
+    username: nukr
+    password: akgeto0g
+    recipients:
+      - nukrs.w@gmail.com
