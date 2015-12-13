@@ -17,4 +17,4 @@ deploy:
     user: nukrs_w
     host: 104.155.196.26
     source: mtg-redux
-    target: /home/nukrs_w/mtg-redux
+    target: /home/nukrs_w/gg
