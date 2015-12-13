@@ -16,5 +16,7 @@ deploy:
   rsync:
     user: nukrs_w
     host: 104.155.196.26
-    source: dist/
+    delete: false
+    recursive: true
+    source: home/
     target: /home/nukrs_w/gg
